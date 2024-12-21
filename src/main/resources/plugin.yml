@@ -1,0 +1,8 @@
+name: Coinflip
+main: org.mrcastello.coinflip.Coinflip
+version: 1.0
+author: mrcastello
+commands:
+  coinflip:
+    description: Flips a coin using the item in your hand.
+    usage: /coinflip
