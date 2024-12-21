@@ -14,7 +14,6 @@ import java.util.Random;
 public final class Coinflip extends SimplePlugin {
 	@Override
 	protected void onPluginStart() {
-		this.getServer().getPluginManager().registerEvents(this, this);
 	}
 
 	@Override
