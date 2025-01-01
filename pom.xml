@@ -13,7 +13,7 @@
     <name>coinflip</name>
 
     <!-- Change to the appropriate plugin's version, starting at 1.0.0. -->
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 
     <!-- DO NOT EDIT. -->
     <packaging>jar</packaging>
@@ -48,12 +48,12 @@
     </properties>
 
     <distributionManagement>
-        <repository>
-            <id> github </id>
-            <name> GitHub </name>
-            <url> https://maven.pkg.github.com/SignorCastello/spigot-coinflip/ </url>
-        </repository>
-    </distributionManagement>
+    <repository>
+        <id>github</id>
+        <name>GitHub SignorCastello Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/SignorCastello/spigot-coinflip</url>
+    </repository>
+    </distributionManagement>   
 
     <repositories>
         <!-- DO NOT EDIT, used to download Foundation from GitHub using JitPack tool. -->
