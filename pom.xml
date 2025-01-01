@@ -47,6 +47,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id> github </id>
+            <name> GitHub </name>
+            <url> https://maven.pkg.github.com/SignorCastello/spigot-coinflip/ </url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <!-- DO NOT EDIT, used to download Foundation from GitHub using JitPack tool. -->
         <repository>
